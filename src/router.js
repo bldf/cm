@@ -7,7 +7,7 @@ import store from "@/store";
 Vue.use(Router);
 
 const BasicLayout = () => import("@/views/layout/BasicLayout.vue");
-
+console.log('vue.vue',BasicLayout ) ;
 export const constantRouter = [
   { path: "/", name: "signIn", component: SignIn, meta: { anonymous: true } }
 ];

@@ -37,7 +37,7 @@
         <el-table-column label="状态" width="120">
           <template slot-scope="scope">
             <el-tag size="medium">已入厂</el-tag>
-            </el-switch>
+            <!--</el-switch>-->
           </template>
         </el-table-column>
       </el-table>

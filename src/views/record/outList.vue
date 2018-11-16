@@ -70,7 +70,7 @@
           <template slot-scope="scope">
 
             <el-tag size="medium">放行通过</el-tag>
-            </el-switch>
+            <!--</el-switch>-->
           </template>
         </el-table-column>
       </el-table>
